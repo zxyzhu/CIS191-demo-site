@@ -1,7 +1,7 @@
 CIS 191 Project 3
 -----------------
 
-1. When you push to cloud, the git hook copies the files from the deploy branch into the directory ~/www. It then echoes a message that the server is starting, goes into the www directory, and then runs server.py.
+1. When you push to cloud, the git hook copies the files from the deploy branch into the directory ~/www. It then echoes a message that the server is starting, goes into the www folder, and then runs server.py.
 
 2. It publishes the ~/www directory online.
 
