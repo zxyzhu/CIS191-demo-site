@@ -1,5 +1,8 @@
 CIS 191 Project 3
 -----------------
 
-This is a demo site that is a simplified version of the CIS 191 website. It is
-used as a testbed/training ground for Git usage and merge conflict resolution.
+1. When you push to cloud, the git hook copies the files from the deploy branch into the directory ~/www. It then echoes a message that the server is starting, goes into the www directory, and then runs server.py.
+
+2. It publishes the ~/www directory online.
+
+3. A bare repository contains only the files in the .git folder and no working copies of the source files. 
